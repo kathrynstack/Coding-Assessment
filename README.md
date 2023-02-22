@@ -10,5 +10,5 @@ I learned that Javascript is a combination of more than just the knowledge I hav
 
 ## Usage
 
-   -Add screenshot of quiz.
-   -Add link to deployed application.
+![code quiz](/assets/coding-quiz.PNG)
+
