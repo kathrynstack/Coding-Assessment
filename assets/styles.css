@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    text-align: center;
+}
+
+.large-font {
+    font-size: 50px;
+    padding-top: 10%;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.start-button {
+    background-color: purple;
+    border: none; 
+    color: white;
+    font-weight: bold;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    padding: 10px;
+    
+}
+.quiz-timer {
+    position: absolute; top: 0; right: 0;
+    font-weight: bold;
+}
+
+.Highscores {
+    position: absolute; top: 0; left: 0;
+}
+
+.Questions, h2 {
+    padding: 5%;
+    font-size: 35px;
+
+}
+
+.answer-btn, .Highscore-page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1% 45%;
+    
+}
+
+ .questions-page, .final-score-page, .high-score-page {
+    display: none;
+ }
